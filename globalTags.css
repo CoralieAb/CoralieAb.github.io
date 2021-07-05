@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Lato:wght@300&family=Montserrat&display=swap');
+
+body {
+  background-color: #212529;
+  color: white;
+}
+
+h1 {
+  font-family: 'Gruppo', recursive;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Gruppo', recursive;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #FFAA2A;
+}
+
+strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  max-width: 900px;
+}

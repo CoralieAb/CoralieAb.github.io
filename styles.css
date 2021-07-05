@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Lato:wght@300&family=Montserrat&display=swap');
+/* HEADER */
+/* HEADER NAV */
+.nav-link, .dropdown-item, .yellow {
+  color: #FFAA2A;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link:focus {
+  font-weight: bold;
+  color: #FFAA2A;
+}
+
+.dropdown-menu {
+  background-color: #212529;
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color: #FFAA2A;
+}
+
+/* HEADER BANNER */
+.header-banner {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-title {
+  padding-top: 0.5rem;
+  text-align: center;
+}
+/* MAIN */
+/* MAIN INTRODUCTION*/
+.introduction {
+  padding: 1rem 0;
+}
+
+/* MAIN CAROUSEL */
+.carousel-caption {
+  background-color: rgba(33,37,41,0.7);
+}
